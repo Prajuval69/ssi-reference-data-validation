@@ -2,7 +2,7 @@
 
 A complete portfolio simulation of a controlled Standard Settlement Instruction (SSI) reference-data operation. It generates deterministic synthetic records, validates them against configurable rules, creates and prioritizes exceptions, demonstrates maker-checker workflow controls, records a structured audit trail, persists the result in SQLite, and produces analysis-ready CSV reports.
 
-**Live project overview:** [prajuval69.github.io/ssi-reference-data-validation](https://prajuval69.github.io/ssi-reference-data-validation/)
+The repository includes a responsive static project overview in `web/dist/index.html`, ready for any static hosting provider.
 
 > **Synthetic-data boundary:** every client, account, custodian, beneficiary, user, market, country and currency in this repository is invented. The project has no connection to a bank, custodian, production platform or real SSI dataset. Its rules and severity levels are demonstration conventions, not official banking policy.
 
