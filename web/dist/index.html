@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Synthetic SSI reference-data validation, exception management, maker-checker controls, SQLite audit trail and operational KPI reporting.">
+  <title>SSI Reference Data Validation</title>
+  <style>
+    :root {
+      --ink: #101820;
+      --paper: #f4f1e9;
+      --panel: #fffdf7;
+      --navy: #17324d;
+      --blue: #247ba0;
+      --mint: #8ecab7;
+      --amber: #efb366;
+      --red: #c95b55;
+      --muted: #66717b;
+      --line: #d8d5cd;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.55;
+    }
+    a { color: inherit; }
+    .shell { width: min(1180px, calc(100% - 40px)); margin: 0 auto; }
+    .topbar {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 22px 0; border-bottom: 1px solid rgba(255,255,255,.18);
+    }
+    .brand { font-size: .76rem; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+    .nav { display: flex; gap: 20px; font-size: .85rem; }
+    .nav a { text-decoration: none; opacity: .78; }
+    .nav a:hover { opacity: 1; }
+    header { background: var(--navy); color: white; }
+    .hero {
+      display: grid; grid-template-columns: 1.2fr .8fr; gap: 70px;
+      align-items: end; padding: 88px 0 96px;
+    }
+    .eyebrow { color: var(--mint); font-weight: 800; letter-spacing: .14em; text-transform: uppercase; font-size: .75rem; }
+    h1 { font-size: clamp(3rem, 7vw, 6.8rem); line-height: .9; letter-spacing: -.065em; margin: 18px 0 28px; max-width: 820px; }
+    .hero p { max-width: 680px; color: #d6e0e9; font-size: 1.1rem; }
+    .actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 36px; }
+    .button { display: inline-flex; align-items: center; gap: 8px; padding: 12px 18px; border: 1px solid rgba(255,255,255,.35); text-decoration: none; font-weight: 750; font-size: .9rem; }
+    .button.primary { background: var(--mint); color: var(--ink); border-color: var(--mint); }
+    .hero-note { border-left: 2px solid var(--amber); padding: 4px 0 4px 22px; color: #d6e0e9; font-size: .92rem; }
+    main { padding: 70px 0 90px; }
+    section { margin: 0 0 92px; }
+    .section-head { display: grid; grid-template-columns: .7fr 1.3fr; gap: 50px; margin-bottom: 34px; align-items: end; }
+    .section-head h2 { font-size: clamp(2rem, 4vw, 3.5rem); letter-spacing: -.045em; line-height: 1; margin: 0; }
+    .section-head p { margin: 0; color: var(--muted); max-width: 680px; }
+    .metrics { display: grid; grid-template-columns: repeat(6, 1fr); border: 1px solid var(--line); background: var(--panel); }
+    .metric { padding: 25px 20px; border-right: 1px solid var(--line); }
+    .metric:last-child { border-right: 0; }
+    .metric strong { display: block; font-size: 2rem; letter-spacing: -.05em; }
+    .metric span { color: var(--muted); font-size: .77rem; text-transform: uppercase; letter-spacing: .08em; }
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+    .card { background: var(--panel); border: 1px solid var(--line); padding: 30px; }
+    .card h3 { margin: 0 0 8px; font-size: 1.25rem; }
+    .card p { color: var(--muted); margin: 0; }
+    .bar-list { margin-top: 28px; display: grid; gap: 16px; }
+    .bar-row { display: grid; grid-template-columns: 112px 1fr 35px; gap: 12px; align-items: center; font-size: .88rem; }
+    .track { height: 10px; background: #e8e4db; overflow: hidden; }
+    .fill { height: 100%; background: var(--blue); }
+    .fill.critical { background: var(--red); }
+    .fill.high { background: var(--amber); }
+    .fill.medium { background: var(--mint); }
+    .flow { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; }
+    .flow-step { min-height: 150px; background: var(--navy); color: white; padding: 22px; position: relative; }
+    .flow-step small { color: var(--mint); font-weight: 800; }
+    .flow-step h3 { margin: 30px 0 0; font-size: 1rem; }
+    .flow-step:not(:last-child)::after { content: "→"; position: absolute; right: -12px; top: 62px; z-index: 2; color: var(--navy); background: var(--paper); width: 24px; height: 24px; text-align: center; }
+    .rules { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); }
+    .rule { background: var(--panel); padding: 20px; }
+    .rule code { color: var(--blue); font-weight: 800; }
+    .rule b { display: block; margin-top: 8px; }
+    .rule span { display: block; color: var(--muted); font-size: .86rem; margin-top: 6px; }
+    .controls { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
+    .control { border-top: 4px solid var(--navy); padding: 20px 0; }
+    .control h3 { margin: 0 0 6px; font-size: 1rem; }
+    .control p { margin: 0; color: var(--muted); font-size: .9rem; }
+    footer { background: var(--ink); color: white; padding: 42px 0; }
+    .footer-row { display: flex; justify-content: space-between; gap: 30px; align-items: center; }
+    .footer-row p { margin: 0; color: #b9c0c6; font-size: .88rem; max-width: 700px; }
+    @media (max-width: 900px) {
+      .hero, .section-head, .grid-2 { grid-template-columns: 1fr; gap: 30px; }
+      .metrics { grid-template-columns: repeat(3, 1fr); }
+      .metric:nth-child(3) { border-right: 0; }
+      .metric:nth-child(-n+3) { border-bottom: 1px solid var(--line); }
+      .flow { grid-template-columns: 1fr; }
+      .flow-step { min-height: auto; }
+      .flow-step h3 { margin-top: 14px; }
+      .flow-step::after { display: none; }
+      .rules { grid-template-columns: 1fr 1fr; }
+      .controls { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 600px) {
+      .shell { width: min(100% - 26px, 1180px); }
+      .nav { display: none; }
+      .hero { padding: 58px 0 66px; }
+      h1 { font-size: 3.3rem; }
+      .metrics, .rules, .controls { grid-template-columns: 1fr; }
+      .metric { border-right: 0; border-bottom: 1px solid var(--line); }
+      .footer-row { align-items: flex-start; flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="shell">
+      <div class="topbar">
+        <div class="brand">SSI Control System / Portfolio Simulation</div>
+        <nav class="nav" aria-label="Primary navigation">
+          <a href="#results">Results</a><a href="#pipeline">Pipeline</a><a href="#rules">Rules</a><a href="#controls">Controls</a>
+        </nav>
+      </div>
+      <div class="hero">
+        <div>
+          <div class="eyebrow">Reference data · exceptions · auditability</div>
+          <h1>SSI validation, made operational.</h1>
+          <p>A deterministic Python and SQLite system that turns synthetic Standard Settlement Instructions into validated records, prioritized exceptions, controlled maker-checker decisions and reproducible KPI outputs.</p>
+          <div class="actions">
+            <a class="button primary" href="https://github.com/Prajuval69/ssi-reference-data-validation">View source on GitHub ↗</a>
+            <a class="button" href="https://github.com/Prajuval69/ssi-reference-data-validation/blob/main/data/outputs/kpi_summary.csv">Inspect KPI output</a>
+          </div>
+        </div>
+        <div class="hero-note"><strong>Synthetic data only.</strong><br>No real bank, client, custodian, settlement account or production-system data is used. Severity and prioritization are project conventions.</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section id="results">
+      <div class="section-head"><h2>Verified run</h2><p>The published sample is generated from a fixed seed and fixed business time. Every record is evaluated against every configured rule, then reconciled to exceptions, audit events and SQLite table counts.</p></div>
+      <div class="metrics">
+        <div class="metric"><strong>250</strong><span>SSI records</span></div>
+        <div class="metric"><strong>3,750</strong><span>Rule results</span></div>
+        <div class="metric"><strong>89.6%</strong><span>Pass rate</span></div>
+        <div class="metric"><strong>33</strong><span>Exceptions</span></div>
+        <div class="metric"><strong>580</strong><span>Audit events</span></div>
+        <div class="metric"><strong>36/36</strong><span>Tests passing</span></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="grid-2">
+        <article class="card">
+          <h3>Exception severity</h3><p>Project-defined risk ordering drives the default operational queue.</p>
+          <div class="bar-list">
+            <div class="bar-row"><span>Critical</span><div class="track"><div class="fill critical" style="width:69%"></div></div><b>11</b></div>
+            <div class="bar-row"><span>High</span><div class="track"><div class="fill high" style="width:100%"></div></div><b>16</b></div>
+            <div class="bar-row"><span>Medium</span><div class="track"><div class="fill medium" style="width:38%"></div></div><b>6</b></div>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Leading exception rules</h3><p>One exception is created for each failed validation result.</p>
+          <div class="bar-list">
+            <div class="bar-row"><span>Active conflict</span><div class="track"><div class="fill" style="width:100%"></div></div><b>6</b></div>
+            <div class="bar-row"><span>Mandatory</span><div class="track"><div class="fill" style="width:67%"></div></div><b>4</b></div>
+            <div class="bar-row"><span>Duplicate ID</span><div class="track"><div class="fill" style="width:67%"></div></div><b>4</b></div>
+            <div class="bar-row"><span>Date checks</span><div class="track"><div class="fill" style="width:67%"></div></div><b>4</b></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="pipeline">
+      <div class="section-head"><h2>From raw data to action</h2><p>The pipeline separates validation, exception creation, workflow, audit and reporting so every stage remains testable and inspectable.</p></div>
+      <div class="flow">
+        <div class="flow-step"><small>01</small><h3>Generate synthetic SSI and controlled reference tables</h3></div>
+        <div class="flow-step"><small>02</small><h3>Run schema, reference, temporal and control rules</h3></div>
+        <div class="flow-step"><small>03</small><h3>Create severity-classified operational exceptions</h3></div>
+        <div class="flow-step"><small>04</small><h3>Apply maker-checker workflow and audit events</h3></div>
+        <div class="flow-step"><small>05</small><h3>Persist SQLite and publish KPI-ready CSV outputs</h3></div>
+      </div>
+    </section>
+
+    <section id="rules">
+      <div class="section-head"><h2>15 configurable rules</h2><p>Rule identifiers, descriptions, severity mapping, thresholds, workflow states and the active-instruction business key are centralized in configuration.</p></div>
+      <div class="rules">
+        <div class="rule"><code>SSI-001</code><b>Mandatory fields</b><span>Required values must be present.</span></div>
+        <div class="rule"><code>SSI-002</code><b>Duplicate SSI ID</b><span>Flags every physical row sharing an identifier.</span></div>
+        <div class="rule"><code>SSI-003</code><b>Active conflict</b><span>One active instruction per configured business key.</span></div>
+        <div class="rule"><code>SSI-004</code><b>Supported currency</b><span>Checks the controlled currency list.</span></div>
+        <div class="rule"><code>SSI-005</code><b>Account format</b><span>Validates the synthetic account regex.</span></div>
+        <div class="rule"><code>SSI-006–007</code><b>Method and source</b><span>Controlled settlement methods and channels.</span></div>
+        <div class="rule"><code>SSI-008–010</code><b>Temporal controls</b><span>Date ordering, staleness and expiry.</span></div>
+        <div class="rule"><code>SSI-011</code><b>Currency / country</b><span>Validates permitted reference relationships.</span></div>
+        <div class="rule"><code>SSI-012–013</code><b>Maker / checker</b><span>Completeness and segregation of duties.</span></div>
+        <div class="rule"><code>SSI-014</code><b>Workflow status</b><span>Allowed-state validation.</span></div>
+        <div class="rule"><code>SSI-015</code><b>Market / country</b><span>Controlled market-country relationships.</span></div>
+        <div class="rule"><code>CONFIG</code><b>Central policy layer</b><span>No scattered thresholds or transition lists.</span></div>
+      </div>
+    </section>
+
+    <section id="controls">
+      <div class="section-head"><h2>Controls you can inspect</h2><p>The repository includes executable code, sample data, SQL queries, tests and concise documentation for interview-ready review.</p></div>
+      <div class="controls">
+        <div class="control"><h3>Maker-checker</h3><p>Self-approval and invalid transitions are rejected before state changes.</p></div>
+        <div class="control"><h3>Exception queue</h3><p>Filterable by severity, status, client, market, currency, rule, age and assignee.</p></div>
+        <div class="control"><h3>Structured audit</h3><p>Machine-readable old and new state stored with actor, time and reason.</p></div>
+        <div class="control"><h3>Reconciliation</h3><p>CSV outputs, SQLite tables and KPI arithmetic are checked end to end.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell footer-row"><p>Portfolio simulation only. Built with Python 3.11+, Pandas, NumPy, SQLite, SQL and pytest.</p><a class="button" href="https://github.com/Prajuval69/ssi-reference-data-validation">Repository ↗</a></div>
+  </footer>
+</body>
+</html>

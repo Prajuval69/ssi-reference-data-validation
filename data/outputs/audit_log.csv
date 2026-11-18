@@ -1,0 +1,581 @@
+audit_id,entity_type,entity_id,action,old_state,new_state,performed_by,performed_at,reason
+AUD-0000001,SSI,1,CREATED,,"{""ssi_id"": ""SSI-00001"", ""status"": ""REJECTED""}",maker_08,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000002,SSI,2,CREATED,,"{""ssi_id"": ""SSI-00002"", ""status"": ""NEW""}",maker_03,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000003,SSI,3,CREATED,,"{""ssi_id"": ""SSI-00003"", ""status"": ""NEW""}",maker_08,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000004,SSI,4,CREATED,,"{""ssi_id"": ""SSI-00004"", ""status"": ""UNDER_REVIEW""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000005,SSI,5,CREATED,,"{""ssi_id"": ""SSI-00005"", ""status"": ""UNDER_REVIEW""}",maker_05,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000006,SSI,6,CREATED,,"{""ssi_id"": ""SSI-00006"", ""status"": ""UNDER_REVIEW""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000007,SSI,7,CREATED,,"{""ssi_id"": ""SSI-00007"", ""status"": ""UNDER_REVIEW""}",maker_07,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000008,SSI,8,CREATED,,"{""ssi_id"": ""SSI-00008"", ""status"": ""NEW""}",maker_07,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000009,SSI,9,CREATED,,"{""ssi_id"": ""SSI-00009"", ""status"": ""REMEDIATION_REQUIRED""}",maker_04,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000010,SSI,10,CREATED,,"{""ssi_id"": ""SSI-00010"", ""status"": ""REMEDIATION_REQUIRED""}",maker_06,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000011,SSI,11,CREATED,,"{""ssi_id"": ""SSI-00011"", ""status"": ""RESOLVED""}",synthetic_generator,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000012,SSI,12,CREATED,,"{""ssi_id"": ""SSI-00012"", ""status"": ""UNDER_REVIEW""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000013,SSI,13,CREATED,,"{""ssi_id"": ""SSI-00013"", ""status"": ""REMEDIATION_REQUIRED""}",maker_01,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000014,SSI,14,CREATED,,"{""ssi_id"": ""SSI-00014"", ""status"": ""ARCHIVED""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000015,SSI,15,CREATED,,"{""ssi_id"": ""SSI-00015"", ""status"": ""RESOLVED""}",maker_08,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000016,SSI,16,CREATED,,"{""ssi_id"": ""SSI-00016"", ""status"": ""NEW""}",maker_08,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000017,SSI,17,CREATED,,"{""ssi_id"": ""SSI-00017"", ""status"": ""RESOLVED""}",maker_06,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000018,SSI,18,CREATED,,"{""ssi_id"": ""SSI-00018"", ""status"": ""NEW""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000019,SSI,19,CREATED,,"{""ssi_id"": ""SSI-00019"", ""status"": ""REMEDIATION_REQUIRED""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000020,SSI,20,CREATED,,"{""ssi_id"": ""SSI-00020"", ""status"": ""NEW""}",maker_08,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000021,SSI,21,CREATED,,"{""ssi_id"": ""SSI-00021"", ""status"": ""NEW""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000022,SSI,22,CREATED,,"{""ssi_id"": ""SSI-00022"", ""status"": ""NEW""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000023,SSI,23,CREATED,,"{""ssi_id"": ""SSI-00023"", ""status"": ""UNDER_REVIEW""}",maker_04,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000024,SSI,24,CREATED,,"{""ssi_id"": ""SSI-00024"", ""status"": ""UNDER_REVIEW""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000025,SSI,25,CREATED,,"{""ssi_id"": ""SSI-00025"", ""status"": ""UNDER_REVIEW""}",maker_05,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000026,SSI,26,CREATED,,"{""ssi_id"": ""SSI-00026"", ""status"": ""UNDER_REVIEW""}",maker_06,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000027,SSI,27,CREATED,,"{""ssi_id"": ""SSI-00027"", ""status"": ""REMEDIATION_REQUIRED""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000028,SSI,28,CREATED,,"{""ssi_id"": ""SSI-00028"", ""status"": ""UNDER_REVIEW""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000029,SSI,29,CREATED,,"{""ssi_id"": ""SSI-00029"", ""status"": ""NEW""}",maker_01,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000030,SSI,30,CREATED,,"{""ssi_id"": ""SSI-00030"", ""status"": ""RESOLVED""}",maker_05,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000031,SSI,31,CREATED,,"{""ssi_id"": ""SSI-00031"", ""status"": ""NEW""}",maker_06,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000032,SSI,32,CREATED,,"{""ssi_id"": ""SSI-00032"", ""status"": ""NEW""}",maker_01,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000033,SSI,33,CREATED,,"{""ssi_id"": ""SSI-00033"", ""status"": ""NEW""}",maker_03,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000034,SSI,34,CREATED,,"{""ssi_id"": ""SSI-00034"", ""status"": ""REMEDIATION_REQUIRED""}",maker_05,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000035,SSI,35,CREATED,,"{""ssi_id"": ""SSI-00035"", ""status"": ""RESOLVED""}",maker_03,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000036,SSI,36,CREATED,,"{""ssi_id"": ""SSI-00036"", ""status"": ""UNDER_REVIEW""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000037,SSI,37,CREATED,,"{""ssi_id"": ""SSI-00037"", ""status"": ""NEW""}",maker_05,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000038,SSI,38,CREATED,,"{""ssi_id"": ""SSI-00038"", ""status"": ""UNDER_REVIEW""}",maker_07,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000039,SSI,39,CREATED,,"{""ssi_id"": ""SSI-00039"", ""status"": ""RESOLVED""}",maker_04,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000040,SSI,40,CREATED,,"{""ssi_id"": ""SSI-00040"", ""status"": ""UNDER_REVIEW""}",maker_07,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000041,SSI,41,CREATED,,"{""ssi_id"": ""SSI-00041"", ""status"": ""RESOLVED""}",maker_01,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000042,SSI,42,CREATED,,"{""ssi_id"": ""SSI-00042"", ""status"": ""UNDER_REVIEW""}",maker_04,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000043,SSI,43,CREATED,,"{""ssi_id"": ""SSI-00043"", ""status"": ""UNDER_REVIEW""}",maker_05,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000044,SSI,44,CREATED,,"{""ssi_id"": ""SSI-00044"", ""status"": ""UNDER_REVIEW""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000045,SSI,45,CREATED,,"{""ssi_id"": ""SSI-00045"", ""status"": ""NEW""}",maker_01,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000046,SSI,46,CREATED,,"{""ssi_id"": ""SSI-00046"", ""status"": ""REMEDIATION_REQUIRED""}",maker_07,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000047,SSI,47,CREATED,,"{""ssi_id"": ""SSI-00047"", ""status"": ""NEW""}",maker_06,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000048,SSI,48,CREATED,,"{""ssi_id"": ""SSI-00048"", ""status"": ""NEW""}",maker_06,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000049,SSI,49,CREATED,,"{""ssi_id"": ""SSI-00049"", ""status"": ""RESOLVED""}",maker_05,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000050,SSI,50,CREATED,,"{""ssi_id"": ""SSI-00050"", ""status"": ""UNDER_REVIEW""}",maker_01,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000051,SSI,51,CREATED,,"{""ssi_id"": ""SSI-00051"", ""status"": ""RESOLVED""}",maker_07,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000052,SSI,52,CREATED,,"{""ssi_id"": ""SSI-00052"", ""status"": ""NEW""}",maker_08,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000053,SSI,53,CREATED,,"{""ssi_id"": ""SSI-00053"", ""status"": ""UNDER_REVIEW""}",maker_07,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000054,SSI,54,CREATED,,"{""ssi_id"": ""SSI-00054"", ""status"": ""REMEDIATION_REQUIRED""}",maker_06,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000055,SSI,55,CREATED,,"{""ssi_id"": ""SSI-00055"", ""status"": ""NEW""}",maker_03,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000056,SSI,56,CREATED,,"{""ssi_id"": ""SSI-00056"", ""status"": ""RESOLVED""}",maker_08,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000057,SSI,57,CREATED,,"{""ssi_id"": ""SSI-00057"", ""status"": ""NEW""}",maker_04,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000058,SSI,58,CREATED,,"{""ssi_id"": ""SSI-00058"", ""status"": ""REMEDIATION_REQUIRED""}",maker_03,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000059,SSI,59,CREATED,,"{""ssi_id"": ""SSI-00059"", ""status"": ""NEW""}",maker_06,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000060,SSI,60,CREATED,,"{""ssi_id"": ""SSI-00060"", ""status"": ""UNDER_REVIEW""}",maker_06,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000061,SSI,61,CREATED,,"{""ssi_id"": ""SSI-00061"", ""status"": ""RESOLVED""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000062,SSI,62,CREATED,,"{""ssi_id"": ""SSI-00062"", ""status"": ""UNDER_REVIEW""}",maker_06,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000063,SSI,63,CREATED,,"{""ssi_id"": ""SSI-00063"", ""status"": ""NEW""}",maker_03,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000064,SSI,64,CREATED,,"{""ssi_id"": ""SSI-00064"", ""status"": ""NEW""}",maker_04,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000065,SSI,65,CREATED,,"{""ssi_id"": ""SSI-00065"", ""status"": ""REJECTED""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000066,SSI,66,CREATED,,"{""ssi_id"": ""SSI-00066"", ""status"": ""UNDER_REVIEW""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000067,SSI,67,CREATED,,"{""ssi_id"": ""SSI-00067"", ""status"": ""UNDER_REVIEW""}",maker_04,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000068,SSI,68,CREATED,,"{""ssi_id"": ""SSI-00068"", ""status"": ""NEW""}",maker_01,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000069,SSI,69,CREATED,,"{""ssi_id"": ""SSI-00069"", ""status"": ""REMEDIATION_REQUIRED""}",maker_03,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000070,SSI,70,CREATED,,"{""ssi_id"": ""SSI-00070"", ""status"": ""UNDER_REVIEW""}",maker_03,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000071,SSI,71,CREATED,,"{""ssi_id"": ""SSI-00071"", ""status"": ""NEW""}",maker_08,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000072,SSI,72,CREATED,,"{""ssi_id"": ""SSI-00072"", ""status"": ""RESOLVED""}",maker_04,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000073,SSI,73,CREATED,,"{""ssi_id"": ""SSI-00073"", ""status"": ""NEW""}",maker_04,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000074,SSI,74,CREATED,,"{""ssi_id"": ""SSI-00074"", ""status"": ""NEW""}",maker_06,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000075,SSI,75,CREATED,,"{""ssi_id"": ""SSI-00075"", ""status"": ""NEW""}",maker_08,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000076,SSI,76,CREATED,,"{""ssi_id"": ""SSI-00076"", ""status"": ""REMEDIATION_REQUIRED""}",maker_06,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000077,SSI,77,CREATED,,"{""ssi_id"": ""SSI-00077"", ""status"": ""NEW""}",maker_03,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000078,SSI,78,CREATED,,"{""ssi_id"": ""SSI-00078"", ""status"": ""NEW""}",maker_04,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000079,SSI,79,CREATED,,"{""ssi_id"": ""SSI-00079"", ""status"": ""RESOLVED""}",maker_06,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000080,SSI,80,CREATED,,"{""ssi_id"": ""SSI-00080"", ""status"": ""UNDER_REVIEW""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000081,SSI,81,CREATED,,"{""ssi_id"": ""SSI-00081"", ""status"": ""RESOLVED""}",maker_06,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000082,SSI,82,CREATED,,"{""ssi_id"": ""SSI-00082"", ""status"": ""REMEDIATION_REQUIRED""}",maker_04,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000083,SSI,83,CREATED,,"{""ssi_id"": ""SSI-00083"", ""status"": ""NEW""}",maker_08,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000084,SSI,84,CREATED,,"{""ssi_id"": ""SSI-00084"", ""status"": ""REMEDIATION_REQUIRED""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000085,SSI,85,CREATED,,"{""ssi_id"": ""SSI-00085"", ""status"": ""UNDER_REVIEW""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000086,SSI,86,CREATED,,"{""ssi_id"": ""SSI-00086"", ""status"": ""RESOLVED""}",maker_03,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000087,SSI,87,CREATED,,"{""ssi_id"": ""SSI-00087"", ""status"": ""REMEDIATION_REQUIRED""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000088,SSI,88,CREATED,,"{""ssi_id"": ""SSI-00088"", ""status"": ""NEW""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000089,SSI,89,CREATED,,"{""ssi_id"": ""SSI-00089"", ""status"": ""NEW""}",maker_04,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000090,SSI,90,CREATED,,"{""ssi_id"": ""SSI-00090"", ""status"": ""RESOLVED""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000091,SSI,91,CREATED,,"{""ssi_id"": ""SSI-00091"", ""status"": ""UNDER_REVIEW""}",maker_06,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000092,SSI,92,CREATED,,"{""ssi_id"": ""SSI-00092"", ""status"": ""NEW""}",maker_06,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000093,SSI,93,CREATED,,"{""ssi_id"": ""SSI-00093"", ""status"": ""RESOLVED""}",maker_06,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000094,SSI,94,CREATED,,"{""ssi_id"": ""SSI-00094"", ""status"": ""RESOLVED""}",maker_01,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000095,SSI,95,CREATED,,"{""ssi_id"": ""SSI-00095"", ""status"": ""UNDER_REVIEW""}",maker_03,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000096,SSI,96,CREATED,,"{""ssi_id"": ""SSI-00096"", ""status"": ""UNDER_REVIEW""}",maker_08,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000097,SSI,97,CREATED,,"{""ssi_id"": ""SSI-00097"", ""status"": ""NEW""}",maker_06,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000098,SSI,98,CREATED,,"{""ssi_id"": ""SSI-00098"", ""status"": ""RESOLVED""}",maker_08,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000099,SSI,99,CREATED,,"{""ssi_id"": ""SSI-00099"", ""status"": ""RESOLVED""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000100,SSI,100,CREATED,,"{""ssi_id"": ""SSI-00100"", ""status"": ""UNDER_REVIEW""}",maker_05,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000101,SSI,101,CREATED,,"{""ssi_id"": ""SSI-00101"", ""status"": ""UNDER_REVIEW""}",maker_01,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000102,SSI,102,CREATED,,"{""ssi_id"": ""SSI-00102"", ""status"": ""NEW""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000103,SSI,103,CREATED,,"{""ssi_id"": ""SSI-00103"", ""status"": ""NEW""}",maker_01,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000104,SSI,104,CREATED,,"{""ssi_id"": ""SSI-00104"", ""status"": ""UNDER_REVIEW""}",maker_01,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000105,SSI,105,CREATED,,"{""ssi_id"": ""SSI-00105"", ""status"": ""UNDER_REVIEW""}",maker_01,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000106,SSI,106,CREATED,,"{""ssi_id"": ""SSI-00106"", ""status"": ""REMEDIATION_REQUIRED""}",maker_07,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000107,SSI,107,CREATED,,"{""ssi_id"": ""SSI-00107"", ""status"": ""NEW""}",maker_03,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000108,SSI,108,CREATED,,"{""ssi_id"": ""SSI-00108"", ""status"": ""NEW""}",maker_08,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000109,SSI,109,CREATED,,"{""ssi_id"": ""SSI-00109"", ""status"": ""UNDER_REVIEW""}",maker_01,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000110,SSI,110,CREATED,,"{""ssi_id"": ""SSI-00110"", ""status"": ""NEW""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000111,SSI,111,CREATED,,"{""ssi_id"": ""SSI-00111"", ""status"": ""REMEDIATION_REQUIRED""}",maker_07,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000112,SSI,112,CREATED,,"{""ssi_id"": ""SSI-00112"", ""status"": ""REMEDIATION_REQUIRED""}",maker_03,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000113,SSI,113,CREATED,,"{""ssi_id"": ""SSI-00113"", ""status"": ""UNDER_REVIEW""}",maker_03,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000114,SSI,114,CREATED,,"{""ssi_id"": ""SSI-00114"", ""status"": ""RESOLVED""}",maker_08,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000115,SSI,115,CREATED,,"{""ssi_id"": ""SSI-00115"", ""status"": ""UNDER_REVIEW""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000116,SSI,116,CREATED,,"{""ssi_id"": ""SSI-00116"", ""status"": ""NEW""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000117,SSI,117,CREATED,,"{""ssi_id"": ""SSI-00117"", ""status"": ""NEW""}",maker_08,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000118,SSI,118,CREATED,,"{""ssi_id"": ""SSI-00118"", ""status"": ""RESOLVED""}",maker_03,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000119,SSI,119,CREATED,,"{""ssi_id"": ""SSI-00119"", ""status"": ""RESOLVED""}",maker_06,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000120,SSI,120,CREATED,,"{""ssi_id"": ""SSI-00120"", ""status"": ""UNDER_REVIEW""}",maker_05,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000121,SSI,121,CREATED,,"{""ssi_id"": ""SSI-00121"", ""status"": ""NEW""}",maker_06,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000122,SSI,122,CREATED,,"{""ssi_id"": ""SSI-00122"", ""status"": ""NEW""}",maker_07,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000123,SSI,123,CREATED,,"{""ssi_id"": ""SSI-00123"", ""status"": ""RESOLVED""}",maker_06,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000124,SSI,124,CREATED,,"{""ssi_id"": ""SSI-00124"", ""status"": ""UNDER_REVIEW""}",maker_08,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000125,SSI,125,CREATED,,"{""ssi_id"": ""SSI-00125"", ""status"": ""RESOLVED""}",maker_08,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000126,SSI,126,CREATED,,"{""ssi_id"": ""SSI-00126"", ""status"": ""RESOLVED""}",maker_04,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000127,SSI,127,CREATED,,"{""ssi_id"": ""SSI-00127"", ""status"": ""UNDER_REVIEW""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000128,SSI,128,CREATED,,"{""ssi_id"": ""SSI-00128"", ""status"": ""UNDER_REVIEW""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000129,SSI,129,CREATED,,"{""ssi_id"": ""SSI-00129"", ""status"": ""REMEDIATION_REQUIRED""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000130,SSI,130,CREATED,,"{""ssi_id"": ""SSI-00130"", ""status"": ""UNDER_REVIEW""}",maker_04,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000131,SSI,131,CREATED,,"{""ssi_id"": ""SSI-00131"", ""status"": ""UNDER_REVIEW""}",maker_05,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000132,SSI,132,CREATED,,"{""ssi_id"": ""SSI-00132"", ""status"": ""RESOLVED""}",maker_04,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000133,SSI,133,CREATED,,"{""ssi_id"": ""SSI-00133"", ""status"": ""UNDER_REVIEW""}",maker_05,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000134,SSI,134,CREATED,,"{""ssi_id"": ""SSI-00134"", ""status"": ""REMEDIATION_REQUIRED""}",maker_03,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000135,SSI,135,CREATED,,"{""ssi_id"": ""SSI-00135"", ""status"": ""UNDER_REVIEW""}",maker_06,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000136,SSI,136,CREATED,,"{""ssi_id"": ""SSI-00136"", ""status"": ""UNDER_REVIEW""}",maker_06,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000137,SSI,137,CREATED,,"{""ssi_id"": ""SSI-00137"", ""status"": ""UNDER_REVIEW""}",maker_07,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000138,SSI,138,CREATED,,"{""ssi_id"": ""SSI-00138"", ""status"": ""UNDER_REVIEW""}",maker_03,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000139,SSI,139,CREATED,,"{""ssi_id"": ""SSI-00139"", ""status"": ""UNDER_REVIEW""}",maker_04,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000140,SSI,140,CREATED,,"{""ssi_id"": ""SSI-00140"", ""status"": ""NEW""}",maker_07,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000141,SSI,141,CREATED,,"{""ssi_id"": ""SSI-00141"", ""status"": ""UNDER_REVIEW""}",maker_08,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000142,SSI,142,CREATED,,"{""ssi_id"": ""SSI-00142"", ""status"": ""RESOLVED""}",maker_07,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000143,SSI,143,CREATED,,"{""ssi_id"": ""SSI-00143"", ""status"": ""UNDER_REVIEW""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000144,SSI,144,CREATED,,"{""ssi_id"": ""SSI-00144"", ""status"": ""NEW""}",maker_01,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000145,SSI,145,CREATED,,"{""ssi_id"": ""SSI-00145"", ""status"": ""RESOLVED""}",maker_03,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000146,SSI,146,CREATED,,"{""ssi_id"": ""SSI-00146"", ""status"": ""UNDER_REVIEW""}",maker_01,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000147,SSI,147,CREATED,,"{""ssi_id"": ""SSI-00147"", ""status"": ""REMEDIATION_REQUIRED""}",maker_03,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000148,SSI,148,CREATED,,"{""ssi_id"": ""SSI-00148"", ""status"": ""UNDER_REVIEW""}",maker_07,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000149,SSI,149,CREATED,,"{""ssi_id"": ""SSI-00149"", ""status"": ""REMEDIATION_REQUIRED""}",maker_05,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000150,SSI,150,CREATED,,"{""ssi_id"": ""SSI-00150"", ""status"": ""NEW""}",maker_01,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000151,SSI,151,CREATED,,"{""ssi_id"": ""SSI-00151"", ""status"": ""RESOLVED""}",maker_01,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000152,SSI,152,CREATED,,"{""ssi_id"": ""SSI-00152"", ""status"": ""NEW""}",maker_07,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000153,SSI,153,CREATED,,"{""ssi_id"": ""SSI-00153"", ""status"": ""RESOLVED""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000154,SSI,154,CREATED,,"{""ssi_id"": ""SSI-00154"", ""status"": ""UNDER_REVIEW""}",maker_08,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000155,SSI,155,CREATED,,"{""ssi_id"": ""SSI-00155"", ""status"": ""UNDER_REVIEW""}",maker_04,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000156,SSI,156,CREATED,,"{""ssi_id"": ""SSI-00156"", ""status"": ""RESOLVED""}",maker_03,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000157,SSI,157,CREATED,,"{""ssi_id"": ""SSI-00157"", ""status"": ""RESOLVED""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000158,SSI,158,CREATED,,"{""ssi_id"": ""SSI-00158"", ""status"": ""RESOLVED""}",maker_08,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000159,SSI,159,CREATED,,"{""ssi_id"": ""SSI-00159"", ""status"": ""NEW""}",maker_08,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000160,SSI,160,CREATED,,"{""ssi_id"": ""SSI-00160"", ""status"": ""NEW""}",maker_01,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000161,SSI,161,CREATED,,"{""ssi_id"": ""SSI-00161"", ""status"": ""REMEDIATION_REQUIRED""}",maker_04,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000162,SSI,162,CREATED,,"{""ssi_id"": ""SSI-00162"", ""status"": ""UNDER_REVIEW""}",maker_04,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000163,SSI,163,CREATED,,"{""ssi_id"": ""SSI-00163"", ""status"": ""UNDER_REVIEW""}",maker_08,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000164,SSI,164,CREATED,,"{""ssi_id"": ""SSI-00164"", ""status"": ""UNDER_REVIEW""}",maker_03,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000165,SSI,165,CREATED,,"{""ssi_id"": ""SSI-00165"", ""status"": ""UNDER_REVIEW""}",maker_06,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000166,SSI,166,CREATED,,"{""ssi_id"": ""SSI-00166"", ""status"": ""UNDER_REVIEW""}",maker_07,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000167,SSI,167,CREATED,,"{""ssi_id"": ""SSI-00167"", ""status"": ""REMEDIATION_REQUIRED""}",maker_06,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000168,SSI,168,CREATED,,"{""ssi_id"": ""SSI-00168"", ""status"": ""RESOLVED""}",maker_04,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000169,SSI,169,CREATED,,"{""ssi_id"": ""SSI-00169"", ""status"": ""UNDER_REVIEW""}",maker_01,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000170,SSI,170,CREATED,,"{""ssi_id"": ""SSI-00170"", ""status"": ""REMEDIATION_REQUIRED""}",maker_07,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000171,SSI,171,CREATED,,"{""ssi_id"": ""SSI-00171"", ""status"": ""RESOLVED""}",maker_04,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000172,SSI,172,CREATED,,"{""ssi_id"": ""SSI-00172"", ""status"": ""UNDER_REVIEW""}",maker_07,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000173,SSI,173,CREATED,,"{""ssi_id"": ""SSI-00173"", ""status"": ""REMEDIATION_REQUIRED""}",maker_06,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000174,SSI,174,CREATED,,"{""ssi_id"": ""SSI-00174"", ""status"": ""NEW""}",maker_05,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000175,SSI,175,CREATED,,"{""ssi_id"": ""SSI-00175"", ""status"": ""UNDER_REVIEW""}",maker_03,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000176,SSI,176,CREATED,,"{""ssi_id"": ""SSI-00176"", ""status"": ""RESOLVED""}",maker_01,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000177,SSI,177,CREATED,,"{""ssi_id"": ""SSI-00177"", ""status"": ""REMEDIATION_REQUIRED""}",maker_06,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000178,SSI,178,CREATED,,"{""ssi_id"": ""SSI-00178"", ""status"": ""UNDER_REVIEW""}",maker_05,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000179,SSI,179,CREATED,,"{""ssi_id"": ""SSI-00179"", ""status"": ""REMEDIATION_REQUIRED""}",maker_04,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000180,SSI,180,CREATED,,"{""ssi_id"": ""SSI-00180"", ""status"": ""NEW""}",maker_05,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000181,SSI,181,CREATED,,"{""ssi_id"": ""SSI-00181"", ""status"": ""RESOLVED""}",maker_05,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000182,SSI,182,CREATED,,"{""ssi_id"": ""SSI-00182"", ""status"": ""RESOLVED""}",maker_05,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000183,SSI,183,CREATED,,"{""ssi_id"": ""SSI-00183"", ""status"": ""NEW""}",maker_03,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000184,SSI,184,CREATED,,"{""ssi_id"": ""SSI-00184"", ""status"": ""UNDER_REVIEW""}",maker_04,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000185,SSI,185,CREATED,,"{""ssi_id"": ""SSI-00185"", ""status"": ""NEW""}",maker_03,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000186,SSI,186,CREATED,,"{""ssi_id"": ""SSI-00186"", ""status"": ""RESOLVED""}",maker_01,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000187,SSI,187,CREATED,,"{""ssi_id"": ""SSI-00187"", ""status"": ""NEW""}",maker_04,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000188,SSI,188,CREATED,,"{""ssi_id"": ""SSI-00188"", ""status"": ""REMEDIATION_REQUIRED""}",maker_05,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000189,SSI,189,CREATED,,"{""ssi_id"": ""SSI-00189"", ""status"": ""RESOLVED""}",maker_04,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000190,SSI,190,CREATED,,"{""ssi_id"": ""SSI-00190"", ""status"": ""REMEDIATION_REQUIRED""}",maker_06,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000191,SSI,191,CREATED,,"{""ssi_id"": ""SSI-00191"", ""status"": ""UNDER_REVIEW""}",maker_05,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000192,SSI,192,CREATED,,"{""ssi_id"": ""SSI-00192"", ""status"": ""REMEDIATION_REQUIRED""}",maker_01,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000193,SSI,193,CREATED,,"{""ssi_id"": ""SSI-00193"", ""status"": ""REJECTED""}",maker_01,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000194,SSI,194,CREATED,,"{""ssi_id"": ""SSI-00194"", ""status"": ""UNDER_REVIEW""}",maker_08,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000195,SSI,195,CREATED,,"{""ssi_id"": ""SSI-00195"", ""status"": ""NEW""}",maker_07,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000196,SSI,196,CREATED,,"{""ssi_id"": ""SSI-00196"", ""status"": ""UNDER_REVIEW""}",maker_07,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000197,SSI,197,CREATED,,"{""ssi_id"": ""SSI-00197"", ""status"": ""NEW""}",maker_04,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000198,SSI,198,CREATED,,"{""ssi_id"": ""SSI-00198"", ""status"": ""RESOLVED""}",maker_06,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000199,SSI,199,CREATED,,"{""ssi_id"": ""SSI-00199"", ""status"": ""NEW""}",maker_01,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000200,SSI,200,CREATED,,"{""ssi_id"": ""SSI-00200"", ""status"": ""REMEDIATION_REQUIRED""}",maker_08,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000201,SSI,201,CREATED,,"{""ssi_id"": ""SSI-00201"", ""status"": ""REMEDIATION_REQUIRED""}",maker_06,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000202,SSI,202,CREATED,,"{""ssi_id"": ""SSI-00202"", ""status"": ""REMEDIATION_REQUIRED""}",maker_03,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000203,SSI,203,CREATED,,"{""ssi_id"": ""SSI-00203"", ""status"": ""RESOLVED""}",maker_01,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000204,SSI,204,CREATED,,"{""ssi_id"": ""SSI-00204"", ""status"": ""NEW""}",maker_07,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000205,SSI,205,CREATED,,"{""ssi_id"": ""SSI-00205"", ""status"": ""RESOLVED""}",maker_05,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000206,SSI,206,CREATED,,"{""ssi_id"": ""SSI-00206"", ""status"": ""NEW""}",maker_07,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000207,SSI,207,CREATED,,"{""ssi_id"": ""SSI-00207"", ""status"": ""NEW""}",maker_03,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000208,SSI,208,CREATED,,"{""ssi_id"": ""SSI-00208"", ""status"": ""REJECTED""}",maker_05,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000209,SSI,209,CREATED,,"{""ssi_id"": ""SSI-00209"", ""status"": ""REMEDIATION_REQUIRED""}",maker_08,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000210,SSI,210,CREATED,,"{""ssi_id"": ""SSI-00210"", ""status"": ""UNDER_REVIEW""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000211,SSI,211,CREATED,,"{""ssi_id"": ""SSI-00211"", ""status"": ""RESOLVED""}",maker_08,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000212,SSI,212,CREATED,,"{""ssi_id"": ""SSI-00212"", ""status"": ""NEW""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000213,SSI,213,CREATED,,"{""ssi_id"": ""SSI-00213"", ""status"": ""NEW""}",maker_01,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000214,SSI,214,CREATED,,"{""ssi_id"": ""SSI-00214"", ""status"": ""UNDER_REVIEW""}",maker_05,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000215,SSI,215,CREATED,,"{""ssi_id"": ""SSI-00215"", ""status"": ""REMEDIATION_REQUIRED""}",maker_08,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000216,SSI,216,CREATED,,"{""ssi_id"": ""SSI-00216"", ""status"": ""NEW""}",maker_04,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000217,SSI,217,CREATED,,"{""ssi_id"": ""SSI-00217"", ""status"": ""RESOLVED""}",maker_08,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000218,SSI,218,CREATED,,"{""ssi_id"": ""SSI-00218"", ""status"": ""REMEDIATION_REQUIRED""}",maker_07,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000219,SSI,219,CREATED,,"{""ssi_id"": ""SSI-00219"", ""status"": ""UNDER_REVIEW""}",maker_04,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000220,SSI,220,CREATED,,"{""ssi_id"": ""SSI-00220"", ""status"": ""NEW""}",maker_05,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000221,SSI,221,CREATED,,"{""ssi_id"": ""SSI-00221"", ""status"": ""UNDER_REVIEW""}",maker_08,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000222,SSI,222,CREATED,,"{""ssi_id"": ""SSI-00222"", ""status"": ""NEW""}",maker_07,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000223,SSI,223,CREATED,,"{""ssi_id"": ""SSI-00223"", ""status"": ""REMEDIATION_REQUIRED""}",maker_04,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000224,SSI,224,CREATED,,"{""ssi_id"": ""SSI-00224"", ""status"": ""REMEDIATION_REQUIRED""}",maker_01,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000225,SSI,225,CREATED,,"{""ssi_id"": ""SSI-00225"", ""status"": ""UNDER_REVIEW""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000226,SSI,226,CREATED,,"{""ssi_id"": ""SSI-00226"", ""status"": ""NEW""}",maker_07,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000227,SSI,227,CREATED,,"{""ssi_id"": ""SSI-00227"", ""status"": ""NEW""}",maker_06,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000228,SSI,228,CREATED,,"{""ssi_id"": ""SSI-00228"", ""status"": ""RESOLVED""}",maker_05,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000229,SSI,229,CREATED,,"{""ssi_id"": ""SSI-00229"", ""status"": ""UNDER_REVIEW""}",maker_06,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000230,SSI,230,CREATED,,"{""ssi_id"": ""SSI-00230"", ""status"": ""RESOLVED""}",maker_05,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000231,SSI,231,CREATED,,"{""ssi_id"": ""SSI-00231"", ""status"": ""NEW""}",maker_05,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000232,SSI,232,CREATED,,"{""ssi_id"": ""SSI-00232"", ""status"": ""UNDER_REVIEW""}",maker_03,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000233,SSI,233,CREATED,,"{""ssi_id"": ""SSI-00233"", ""status"": ""RESOLVED""}",maker_06,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000234,SSI,234,CREATED,,"{""ssi_id"": ""SSI-00234"", ""status"": ""UNDER_REVIEW""}",maker_01,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000235,SSI,235,CREATED,,"{""ssi_id"": ""SSI-00235"", ""status"": ""REMEDIATION_REQUIRED""}",maker_03,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000236,SSI,236,CREATED,,"{""ssi_id"": ""SSI-00236"", ""status"": ""NEW""}",maker_03,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000237,SSI,237,CREATED,,"{""ssi_id"": ""SSI-00237"", ""status"": ""REMEDIATION_REQUIRED""}",maker_07,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000238,SSI,238,CREATED,,"{""ssi_id"": ""SSI-00238"", ""status"": ""NEW""}",maker_07,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000239,SSI,239,CREATED,,"{""ssi_id"": ""SSI-00239"", ""status"": ""REMEDIATION_REQUIRED""}",maker_03,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000240,SSI,240,CREATED,,"{""ssi_id"": ""SSI-00240"", ""status"": ""RESOLVED""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000241,SSI,241,CREATED,,"{""ssi_id"": ""SSI-00241"", ""status"": ""NEW""}",maker_06,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000242,SSI,242,CREATED,,"{""ssi_id"": ""SSI-00242"", ""status"": ""RESOLVED""}",maker_06,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000243,SSI,243,CREATED,,"{""ssi_id"": ""SSI-00243"", ""status"": ""RESOLVED""}",maker_08,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000244,SSI,244,CREATED,,"{""ssi_id"": ""SSI-00244"", ""status"": ""RESOLVED""}",maker_04,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000245,SSI,245,CREATED,,"{""ssi_id"": ""SSI-00245"", ""status"": ""REMEDIATION_REQUIRED""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000246,SSI,246,CREATED,,"{""ssi_id"": ""SSI-00246"", ""status"": ""UNDER_REVIEW""}",maker_08,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000247,SSI,247,CREATED,,"{""ssi_id"": ""SSI-00247"", ""status"": ""RESOLVED""}",maker_07,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000248,SSI,248,CREATED,,"{""ssi_id"": ""SSI-00021"", ""status"": ""RESOLVED""}",maker_08,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000249,SSI,249,CREATED,,"{""ssi_id"": ""SSI-00022"", ""status"": ""RESOLVED""}",maker_02,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000250,SSI,250,CREATED,,"{""ssi_id"": ""SSI-00250"", ""status"": ""NEW""}",maker_04,2026-09-23T12:00:00+00:00,Deterministic synthetic dataset creation
+AUD-0000251,SSI,1,VALIDATION_COMPLETED,,"{""failed_rules"": [""SSI-001""], ""passed"": false}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000252,SSI,2,VALIDATION_COMPLETED,,"{""failed_rules"": [""SSI-005""], ""passed"": false}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000253,SSI,3,VALIDATION_COMPLETED,,"{""failed_rules"": [""SSI-004"", ""SSI-011""], ""passed"": false}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000254,SSI,4,VALIDATION_COMPLETED,,"{""failed_rules"": [""SSI-006""], ""passed"": false}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000255,SSI,5,VALIDATION_COMPLETED,,"{""failed_rules"": [""SSI-007""], ""passed"": false}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000256,SSI,6,VALIDATION_COMPLETED,,"{""failed_rules"": [""SSI-008""], ""passed"": false}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000257,SSI,7,VALIDATION_COMPLETED,,"{""failed_rules"": [""SSI-008"", ""SSI-010""], ""passed"": false}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000258,SSI,8,VALIDATION_COMPLETED,,"{""failed_rules"": [""SSI-008"", ""SSI-010""], ""passed"": false}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000259,SSI,9,VALIDATION_COMPLETED,,"{""failed_rules"": [""SSI-009""], ""passed"": false}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000260,SSI,10,VALIDATION_COMPLETED,,"{""failed_rules"": [""SSI-011"", ""SSI-015""], ""passed"": false}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000261,SSI,11,VALIDATION_COMPLETED,,"{""failed_rules"": [""SSI-001"", ""SSI-012""], ""passed"": false}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000262,SSI,12,VALIDATION_COMPLETED,,"{""failed_rules"": [""SSI-001"", ""SSI-012""], ""passed"": false}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000263,SSI,13,VALIDATION_COMPLETED,,"{""failed_rules"": [""SSI-013""], ""passed"": false}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000264,SSI,14,VALIDATION_COMPLETED,,"{""failed_rules"": [""SSI-014""], ""passed"": false}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000265,SSI,15,VALIDATION_COMPLETED,,"{""failed_rules"": [""SSI-001"", ""SSI-008""], ""passed"": false}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000266,SSI,16,VALIDATION_COMPLETED,,"{""failed_rules"": [""SSI-009""], ""passed"": false}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000267,SSI,17,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000268,SSI,18,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000269,SSI,19,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000270,SSI,20,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000271,SSI,21,VALIDATION_COMPLETED,,"{""failed_rules"": [""SSI-002""], ""passed"": false}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000272,SSI,22,VALIDATION_COMPLETED,,"{""failed_rules"": [""SSI-002""], ""passed"": false}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000273,SSI,23,VALIDATION_COMPLETED,,"{""failed_rules"": [""SSI-003""], ""passed"": false}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000274,SSI,24,VALIDATION_COMPLETED,,"{""failed_rules"": [""SSI-003""], ""passed"": false}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000275,SSI,25,VALIDATION_COMPLETED,,"{""failed_rules"": [""SSI-003""], ""passed"": false}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000276,SSI,26,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000277,SSI,27,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000278,SSI,28,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000279,SSI,29,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000280,SSI,30,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000281,SSI,31,VALIDATION_COMPLETED,,"{""failed_rules"": [""SSI-003""], ""passed"": false}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000282,SSI,32,VALIDATION_COMPLETED,,"{""failed_rules"": [""SSI-003""], ""passed"": false}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000283,SSI,33,VALIDATION_COMPLETED,,"{""failed_rules"": [""SSI-003""], ""passed"": false}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000284,SSI,34,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000285,SSI,35,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000286,SSI,36,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000287,SSI,37,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000288,SSI,38,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000289,SSI,39,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000290,SSI,40,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000291,SSI,41,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000292,SSI,42,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000293,SSI,43,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000294,SSI,44,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000295,SSI,45,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000296,SSI,46,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000297,SSI,47,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000298,SSI,48,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000299,SSI,49,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000300,SSI,50,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000301,SSI,51,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000302,SSI,52,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000303,SSI,53,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000304,SSI,54,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000305,SSI,55,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000306,SSI,56,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000307,SSI,57,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000308,SSI,58,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000309,SSI,59,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000310,SSI,60,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000311,SSI,61,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000312,SSI,62,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000313,SSI,63,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000314,SSI,64,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000315,SSI,65,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000316,SSI,66,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000317,SSI,67,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000318,SSI,68,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000319,SSI,69,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000320,SSI,70,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000321,SSI,71,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000322,SSI,72,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000323,SSI,73,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000324,SSI,74,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000325,SSI,75,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000326,SSI,76,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000327,SSI,77,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000328,SSI,78,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000329,SSI,79,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000330,SSI,80,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000331,SSI,81,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000332,SSI,82,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000333,SSI,83,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000334,SSI,84,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000335,SSI,85,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000336,SSI,86,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000337,SSI,87,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000338,SSI,88,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000339,SSI,89,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000340,SSI,90,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000341,SSI,91,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000342,SSI,92,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000343,SSI,93,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000344,SSI,94,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000345,SSI,95,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000346,SSI,96,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000347,SSI,97,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000348,SSI,98,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000349,SSI,99,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000350,SSI,100,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000351,SSI,101,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000352,SSI,102,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000353,SSI,103,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000354,SSI,104,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000355,SSI,105,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000356,SSI,106,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000357,SSI,107,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000358,SSI,108,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000359,SSI,109,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000360,SSI,110,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000361,SSI,111,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000362,SSI,112,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000363,SSI,113,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000364,SSI,114,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000365,SSI,115,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000366,SSI,116,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000367,SSI,117,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000368,SSI,118,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000369,SSI,119,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000370,SSI,120,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000371,SSI,121,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000372,SSI,122,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000373,SSI,123,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000374,SSI,124,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000375,SSI,125,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000376,SSI,126,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000377,SSI,127,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000378,SSI,128,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000379,SSI,129,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000380,SSI,130,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000381,SSI,131,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000382,SSI,132,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000383,SSI,133,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000384,SSI,134,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000385,SSI,135,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000386,SSI,136,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000387,SSI,137,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000388,SSI,138,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000389,SSI,139,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000390,SSI,140,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000391,SSI,141,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000392,SSI,142,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000393,SSI,143,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000394,SSI,144,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000395,SSI,145,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000396,SSI,146,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000397,SSI,147,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000398,SSI,148,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000399,SSI,149,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000400,SSI,150,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000401,SSI,151,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000402,SSI,152,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000403,SSI,153,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000404,SSI,154,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000405,SSI,155,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000406,SSI,156,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000407,SSI,157,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000408,SSI,158,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000409,SSI,159,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000410,SSI,160,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000411,SSI,161,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000412,SSI,162,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000413,SSI,163,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000414,SSI,164,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000415,SSI,165,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000416,SSI,166,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000417,SSI,167,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000418,SSI,168,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000419,SSI,169,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000420,SSI,170,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000421,SSI,171,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000422,SSI,172,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000423,SSI,173,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000424,SSI,174,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000425,SSI,175,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000426,SSI,176,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000427,SSI,177,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000428,SSI,178,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000429,SSI,179,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000430,SSI,180,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000431,SSI,181,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000432,SSI,182,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000433,SSI,183,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000434,SSI,184,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000435,SSI,185,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000436,SSI,186,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000437,SSI,187,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000438,SSI,188,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000439,SSI,189,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000440,SSI,190,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000441,SSI,191,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000442,SSI,192,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000443,SSI,193,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000444,SSI,194,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000445,SSI,195,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000446,SSI,196,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000447,SSI,197,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000448,SSI,198,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000449,SSI,199,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000450,SSI,200,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000451,SSI,201,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000452,SSI,202,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000453,SSI,203,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000454,SSI,204,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000455,SSI,205,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000456,SSI,206,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000457,SSI,207,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000458,SSI,208,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000459,SSI,209,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000460,SSI,210,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000461,SSI,211,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000462,SSI,212,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000463,SSI,213,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000464,SSI,214,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000465,SSI,215,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000466,SSI,216,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000467,SSI,217,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000468,SSI,218,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000469,SSI,219,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000470,SSI,220,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000471,SSI,221,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000472,SSI,222,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000473,SSI,223,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000474,SSI,224,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000475,SSI,225,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000476,SSI,226,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000477,SSI,227,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000478,SSI,228,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000479,SSI,229,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000480,SSI,230,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000481,SSI,231,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000482,SSI,232,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000483,SSI,233,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000484,SSI,234,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000485,SSI,235,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000486,SSI,236,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000487,SSI,237,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000488,SSI,238,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000489,SSI,239,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000490,SSI,240,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000491,SSI,241,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000492,SSI,242,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000493,SSI,243,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000494,SSI,244,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000495,SSI,245,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000496,SSI,246,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000497,SSI,247,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000498,SSI,248,VALIDATION_COMPLETED,,"{""failed_rules"": [""SSI-002""], ""passed"": false}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000499,SSI,249,VALIDATION_COMPLETED,,"{""failed_rules"": [""SSI-002""], ""passed"": false}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000500,SSI,250,VALIDATION_COMPLETED,,"{""failed_rules"": [], ""passed"": true}",validation_engine,2026-09-23T12:00:00+00:00,Configured SSI validation rules executed
+AUD-0000501,EXCEPTION,EXC-0000001,CREATED,,"{""rule_id"": ""SSI-001"", ""severity"": ""High"", ""status"": ""NEW""}",validation_engine,2026-09-23T12:00:00+00:00,Missing mandatory fields: client_name
+AUD-0000502,EXCEPTION,EXC-0000002,CREATED,,"{""rule_id"": ""SSI-005"", ""severity"": ""High"", ""status"": ""NEW""}",validation_engine,2026-09-23T12:00:00+00:00,Account number does not match the synthetic account format
+AUD-0000503,EXCEPTION,EXC-0000003,CREATED,,"{""rule_id"": ""SSI-004"", ""severity"": ""High"", ""status"": ""NEW""}",validation_engine,2026-09-23T12:00:00+00:00,Currency is not supported
+AUD-0000504,EXCEPTION,EXC-0000004,CREATED,,"{""rule_id"": ""SSI-011"", ""severity"": ""Medium"", ""status"": ""NEW""}",validation_engine,2026-09-23T12:00:00+00:00,Currency is not allowed for the country
+AUD-0000505,EXCEPTION,EXC-0000005,CREATED,,"{""rule_id"": ""SSI-006"", ""severity"": ""Medium"", ""status"": ""NEW""}",validation_engine,2026-09-23T12:00:00+00:00,Settlement method is not supported
+AUD-0000506,EXCEPTION,EXC-0000006,CREATED,,"{""rule_id"": ""SSI-007"", ""severity"": ""High"", ""status"": ""NEW""}",validation_engine,2026-09-23T12:00:00+00:00,Source channel is not authorized
+AUD-0000507,EXCEPTION,EXC-0000007,CREATED,,"{""rule_id"": ""SSI-008"", ""severity"": ""High"", ""status"": ""NEW""}",validation_engine,2026-09-23T12:00:00+00:00,effective_date is missing or invalid
+AUD-0000508,EXCEPTION,EXC-0000008,CREATED,,"{""rule_id"": ""SSI-008"", ""severity"": ""High"", ""status"": ""NEW""}",validation_engine,2026-09-23T12:00:00+00:00,expiry_date is before effective_date
+AUD-0000509,EXCEPTION,EXC-0000009,CREATED,,"{""rule_id"": ""SSI-010"", ""severity"": ""High"", ""status"": ""NEW""}",validation_engine,2026-09-23T12:00:00+00:00,Instruction expiry date has passed
+AUD-0000510,EXCEPTION,EXC-0000010,CREATED,,"{""rule_id"": ""SSI-008"", ""severity"": ""High"", ""status"": ""NEW""}",validation_engine,2026-09-23T12:00:00+00:00,expiry_date is before effective_date
+AUD-0000511,EXCEPTION,EXC-0000011,CREATED,,"{""rule_id"": ""SSI-010"", ""severity"": ""High"", ""status"": ""NEW""}",validation_engine,2026-09-23T12:00:00+00:00,Instruction expiry date has passed
+AUD-0000512,EXCEPTION,EXC-0000012,CREATED,,"{""rule_id"": ""SSI-009"", ""severity"": ""Medium"", ""status"": ""NEW""}",validation_engine,2026-09-23T12:00:00+00:00,Instruction is older than 180 days
+AUD-0000513,EXCEPTION,EXC-0000013,CREATED,,"{""rule_id"": ""SSI-011"", ""severity"": ""Medium"", ""status"": ""NEW""}",validation_engine,2026-09-23T12:00:00+00:00,Currency is not allowed for the country
+AUD-0000514,EXCEPTION,EXC-0000014,CREATED,,"{""rule_id"": ""SSI-015"", ""severity"": ""Medium"", ""status"": ""NEW""}",validation_engine,2026-09-23T12:00:00+00:00,Market is not allowed for the country
+AUD-0000515,EXCEPTION,EXC-0000015,CREATED,,"{""rule_id"": ""SSI-001"", ""severity"": ""High"", ""status"": ""NEW""}",validation_engine,2026-09-23T12:00:00+00:00,Missing mandatory fields: maker
+AUD-0000516,EXCEPTION,EXC-0000016,CREATED,,"{""rule_id"": ""SSI-012"", ""severity"": ""High"", ""status"": ""NEW""}",validation_engine,2026-09-23T12:00:00+00:00,Missing workflow role(s): maker
+AUD-0000517,EXCEPTION,EXC-0000017,CREATED,,"{""rule_id"": ""SSI-001"", ""severity"": ""High"", ""status"": ""NEW""}",validation_engine,2026-09-23T12:00:00+00:00,Missing mandatory fields: checker
+AUD-0000518,EXCEPTION,EXC-0000018,CREATED,,"{""rule_id"": ""SSI-012"", ""severity"": ""High"", ""status"": ""NEW""}",validation_engine,2026-09-23T12:00:00+00:00,Missing workflow role(s): checker
+AUD-0000519,EXCEPTION,EXC-0000019,CREATED,,"{""rule_id"": ""SSI-013"", ""severity"": ""Critical"", ""status"": ""NEW""}",validation_engine,2026-09-23T12:00:00+00:00,Maker and checker are the same user
+AUD-0000520,EXCEPTION,EXC-0000020,CREATED,,"{""rule_id"": ""SSI-014"", ""severity"": ""High"", ""status"": ""NEW""}",validation_engine,2026-09-23T12:00:00+00:00,Status is not in the allowed workflow status set
+AUD-0000521,EXCEPTION,EXC-0000021,CREATED,,"{""rule_id"": ""SSI-001"", ""severity"": ""High"", ""status"": ""NEW""}",validation_engine,2026-09-23T12:00:00+00:00,Missing mandatory fields: effective_date
+AUD-0000522,EXCEPTION,EXC-0000022,CREATED,,"{""rule_id"": ""SSI-008"", ""severity"": ""High"", ""status"": ""NEW""}",validation_engine,2026-09-23T12:00:00+00:00,effective_date is missing or invalid
+AUD-0000523,EXCEPTION,EXC-0000023,CREATED,,"{""rule_id"": ""SSI-009"", ""severity"": ""Medium"", ""status"": ""NEW""}",validation_engine,2026-09-23T12:00:00+00:00,updated_at is missing or invalid
+AUD-0000524,EXCEPTION,EXC-0000024,CREATED,,"{""rule_id"": ""SSI-002"", ""severity"": ""Critical"", ""status"": ""NEW""}",validation_engine,2026-09-23T12:00:00+00:00,Duplicate SSI identifier
+AUD-0000525,EXCEPTION,EXC-0000025,CREATED,,"{""rule_id"": ""SSI-002"", ""severity"": ""Critical"", ""status"": ""NEW""}",validation_engine,2026-09-23T12:00:00+00:00,Duplicate SSI identifier
+AUD-0000526,EXCEPTION,EXC-0000026,CREATED,,"{""rule_id"": ""SSI-003"", ""severity"": ""Critical"", ""status"": ""NEW""}",validation_engine,2026-09-23T12:00:00+00:00,Multiple active instructions share the configured business key
+AUD-0000527,EXCEPTION,EXC-0000027,CREATED,,"{""rule_id"": ""SSI-003"", ""severity"": ""Critical"", ""status"": ""NEW""}",validation_engine,2026-09-23T12:00:00+00:00,Multiple active instructions share the configured business key
+AUD-0000528,EXCEPTION,EXC-0000028,CREATED,,"{""rule_id"": ""SSI-003"", ""severity"": ""Critical"", ""status"": ""NEW""}",validation_engine,2026-09-23T12:00:00+00:00,Multiple active instructions share the configured business key
+AUD-0000529,EXCEPTION,EXC-0000029,CREATED,,"{""rule_id"": ""SSI-003"", ""severity"": ""Critical"", ""status"": ""NEW""}",validation_engine,2026-09-23T12:00:00+00:00,Multiple active instructions share the configured business key
+AUD-0000530,EXCEPTION,EXC-0000030,CREATED,,"{""rule_id"": ""SSI-003"", ""severity"": ""Critical"", ""status"": ""NEW""}",validation_engine,2026-09-23T12:00:00+00:00,Multiple active instructions share the configured business key
+AUD-0000531,EXCEPTION,EXC-0000031,CREATED,,"{""rule_id"": ""SSI-003"", ""severity"": ""Critical"", ""status"": ""NEW""}",validation_engine,2026-09-23T12:00:00+00:00,Multiple active instructions share the configured business key
+AUD-0000532,EXCEPTION,EXC-0000032,CREATED,,"{""rule_id"": ""SSI-002"", ""severity"": ""Critical"", ""status"": ""NEW""}",validation_engine,2026-09-23T12:00:00+00:00,Duplicate SSI identifier
+AUD-0000533,EXCEPTION,EXC-0000033,CREATED,,"{""rule_id"": ""SSI-002"", ""severity"": ""Critical"", ""status"": ""NEW""}",validation_engine,2026-09-23T12:00:00+00:00,Duplicate SSI identifier
+AUD-0000534,EXCEPTION,EXC-0000001,ASSIGNED,"{""assigned_to"": null}","{""assigned_to"": ""data_quality_lead""}",queue_router,2026-09-23T12:00:00+00:00,Project severity-based routing rule
+AUD-0000535,EXCEPTION,EXC-0000002,ASSIGNED,"{""assigned_to"": null}","{""assigned_to"": ""data_quality_lead""}",queue_router,2026-09-23T12:00:00+00:00,Project severity-based routing rule
+AUD-0000536,EXCEPTION,EXC-0000003,ASSIGNED,"{""assigned_to"": null}","{""assigned_to"": ""data_quality_lead""}",queue_router,2026-09-23T12:00:00+00:00,Project severity-based routing rule
+AUD-0000537,EXCEPTION,EXC-0000004,ASSIGNED,"{""assigned_to"": null}","{""assigned_to"": ""operations_analyst""}",queue_router,2026-09-23T12:00:00+00:00,Project severity-based routing rule
+AUD-0000538,EXCEPTION,EXC-0000005,ASSIGNED,"{""assigned_to"": null}","{""assigned_to"": ""operations_analyst""}",queue_router,2026-09-23T12:00:00+00:00,Project severity-based routing rule
+AUD-0000539,EXCEPTION,EXC-0000006,ASSIGNED,"{""assigned_to"": null}","{""assigned_to"": ""data_quality_lead""}",queue_router,2026-09-23T12:00:00+00:00,Project severity-based routing rule
+AUD-0000540,EXCEPTION,EXC-0000007,ASSIGNED,"{""assigned_to"": null}","{""assigned_to"": ""data_quality_lead""}",queue_router,2026-09-23T12:00:00+00:00,Project severity-based routing rule
+AUD-0000541,EXCEPTION,EXC-0000008,ASSIGNED,"{""assigned_to"": null}","{""assigned_to"": ""data_quality_lead""}",queue_router,2026-09-23T12:00:00+00:00,Project severity-based routing rule
+AUD-0000542,EXCEPTION,EXC-0000009,ASSIGNED,"{""assigned_to"": null}","{""assigned_to"": ""data_quality_lead""}",queue_router,2026-09-23T12:00:00+00:00,Project severity-based routing rule
+AUD-0000543,EXCEPTION,EXC-0000010,ASSIGNED,"{""assigned_to"": null}","{""assigned_to"": ""data_quality_lead""}",queue_router,2026-09-23T12:00:00+00:00,Project severity-based routing rule
+AUD-0000544,EXCEPTION,EXC-0000011,ASSIGNED,"{""assigned_to"": null}","{""assigned_to"": ""data_quality_lead""}",queue_router,2026-09-23T12:00:00+00:00,Project severity-based routing rule
+AUD-0000545,EXCEPTION,EXC-0000012,ASSIGNED,"{""assigned_to"": null}","{""assigned_to"": ""operations_analyst""}",queue_router,2026-09-23T12:00:00+00:00,Project severity-based routing rule
+AUD-0000546,EXCEPTION,EXC-0000013,ASSIGNED,"{""assigned_to"": null}","{""assigned_to"": ""operations_analyst""}",queue_router,2026-09-23T12:00:00+00:00,Project severity-based routing rule
+AUD-0000547,EXCEPTION,EXC-0000014,ASSIGNED,"{""assigned_to"": null}","{""assigned_to"": ""operations_analyst""}",queue_router,2026-09-23T12:00:00+00:00,Project severity-based routing rule
+AUD-0000548,EXCEPTION,EXC-0000015,ASSIGNED,"{""assigned_to"": null}","{""assigned_to"": ""data_quality_lead""}",queue_router,2026-09-23T12:00:00+00:00,Project severity-based routing rule
+AUD-0000549,EXCEPTION,EXC-0000016,ASSIGNED,"{""assigned_to"": null}","{""assigned_to"": ""data_quality_lead""}",queue_router,2026-09-23T12:00:00+00:00,Project severity-based routing rule
+AUD-0000550,EXCEPTION,EXC-0000017,ASSIGNED,"{""assigned_to"": null}","{""assigned_to"": ""data_quality_lead""}",queue_router,2026-09-23T12:00:00+00:00,Project severity-based routing rule
+AUD-0000551,EXCEPTION,EXC-0000018,ASSIGNED,"{""assigned_to"": null}","{""assigned_to"": ""data_quality_lead""}",queue_router,2026-09-23T12:00:00+00:00,Project severity-based routing rule
+AUD-0000552,EXCEPTION,EXC-0000019,ASSIGNED,"{""assigned_to"": null}","{""assigned_to"": ""data_quality_lead""}",queue_router,2026-09-23T12:00:00+00:00,Project severity-based routing rule
+AUD-0000553,EXCEPTION,EXC-0000020,ASSIGNED,"{""assigned_to"": null}","{""assigned_to"": ""data_quality_lead""}",queue_router,2026-09-23T12:00:00+00:00,Project severity-based routing rule
+AUD-0000554,EXCEPTION,EXC-0000021,ASSIGNED,"{""assigned_to"": null}","{""assigned_to"": ""data_quality_lead""}",queue_router,2026-09-23T12:00:00+00:00,Project severity-based routing rule
+AUD-0000555,EXCEPTION,EXC-0000022,ASSIGNED,"{""assigned_to"": null}","{""assigned_to"": ""data_quality_lead""}",queue_router,2026-09-23T12:00:00+00:00,Project severity-based routing rule
+AUD-0000556,EXCEPTION,EXC-0000023,ASSIGNED,"{""assigned_to"": null}","{""assigned_to"": ""operations_analyst""}",queue_router,2026-09-23T12:00:00+00:00,Project severity-based routing rule
+AUD-0000557,EXCEPTION,EXC-0000024,ASSIGNED,"{""assigned_to"": null}","{""assigned_to"": ""data_quality_lead""}",queue_router,2026-09-23T12:00:00+00:00,Project severity-based routing rule
+AUD-0000558,EXCEPTION,EXC-0000025,ASSIGNED,"{""assigned_to"": null}","{""assigned_to"": ""data_quality_lead""}",queue_router,2026-09-23T12:00:00+00:00,Project severity-based routing rule
+AUD-0000559,EXCEPTION,EXC-0000026,ASSIGNED,"{""assigned_to"": null}","{""assigned_to"": ""data_quality_lead""}",queue_router,2026-09-23T12:00:00+00:00,Project severity-based routing rule
+AUD-0000560,EXCEPTION,EXC-0000027,ASSIGNED,"{""assigned_to"": null}","{""assigned_to"": ""data_quality_lead""}",queue_router,2026-09-23T12:00:00+00:00,Project severity-based routing rule
+AUD-0000561,EXCEPTION,EXC-0000028,ASSIGNED,"{""assigned_to"": null}","{""assigned_to"": ""data_quality_lead""}",queue_router,2026-09-23T12:00:00+00:00,Project severity-based routing rule
+AUD-0000562,EXCEPTION,EXC-0000029,ASSIGNED,"{""assigned_to"": null}","{""assigned_to"": ""data_quality_lead""}",queue_router,2026-09-23T12:00:00+00:00,Project severity-based routing rule
+AUD-0000563,EXCEPTION,EXC-0000030,ASSIGNED,"{""assigned_to"": null}","{""assigned_to"": ""data_quality_lead""}",queue_router,2026-09-23T12:00:00+00:00,Project severity-based routing rule
+AUD-0000564,EXCEPTION,EXC-0000031,ASSIGNED,"{""assigned_to"": null}","{""assigned_to"": ""data_quality_lead""}",queue_router,2026-09-23T12:00:00+00:00,Project severity-based routing rule
+AUD-0000565,EXCEPTION,EXC-0000032,ASSIGNED,"{""assigned_to"": null}","{""assigned_to"": ""data_quality_lead""}",queue_router,2026-09-23T12:00:00+00:00,Project severity-based routing rule
+AUD-0000566,EXCEPTION,EXC-0000033,ASSIGNED,"{""assigned_to"": null}","{""assigned_to"": ""data_quality_lead""}",queue_router,2026-09-23T12:00:00+00:00,Project severity-based routing rule
+AUD-0000567,EXCEPTION,EXC-0000001,STATUS_TRANSITION,"{""resolution_notes"": null, ""status"": ""NEW""}","{""resolution_notes"": null, ""resolved_at"": null, ""status"": ""UNDER_REVIEW""}",checker_demo,2026-09-23T13:00:00+00:00,Synthetic checker review started
+AUD-0000568,EXCEPTION,EXC-0000001,APPROVED,"{""resolution_notes"": null, ""status"": ""UNDER_REVIEW""}","{""resolution_notes"": ""Resolved in the deterministic demonstration workflow"", ""resolved_at"": ""2026-09-24T12:00:00+00:00"", ""status"": ""RESOLVED""}",checker_demo,2026-09-24T12:00:00+00:00,Synthetic evidence reviewed
+AUD-0000569,EXCEPTION,EXC-0000002,STATUS_TRANSITION,"{""resolution_notes"": null, ""status"": ""NEW""}","{""resolution_notes"": null, ""resolved_at"": null, ""status"": ""UNDER_REVIEW""}",checker_demo,2026-09-23T13:00:00+00:00,Synthetic checker review started
+AUD-0000570,EXCEPTION,EXC-0000002,APPROVED,"{""resolution_notes"": null, ""status"": ""UNDER_REVIEW""}","{""resolution_notes"": ""Resolved in the deterministic demonstration workflow"", ""resolved_at"": ""2026-09-24T13:00:00+00:00"", ""status"": ""RESOLVED""}",checker_demo,2026-09-24T13:00:00+00:00,Synthetic evidence reviewed
+AUD-0000571,EXCEPTION,EXC-0000003,STATUS_TRANSITION,"{""resolution_notes"": null, ""status"": ""NEW""}","{""resolution_notes"": null, ""resolved_at"": null, ""status"": ""UNDER_REVIEW""}",checker_demo,2026-09-23T13:00:00+00:00,Synthetic checker review started
+AUD-0000572,EXCEPTION,EXC-0000003,APPROVED,"{""resolution_notes"": null, ""status"": ""UNDER_REVIEW""}","{""resolution_notes"": ""Resolved in the deterministic demonstration workflow"", ""resolved_at"": ""2026-09-24T14:00:00+00:00"", ""status"": ""RESOLVED""}",checker_demo,2026-09-24T14:00:00+00:00,Synthetic evidence reviewed
+AUD-0000573,EXCEPTION,EXC-0000004,STATUS_TRANSITION,"{""resolution_notes"": null, ""status"": ""NEW""}","{""resolution_notes"": null, ""resolved_at"": null, ""status"": ""UNDER_REVIEW""}",checker_demo,2026-09-23T13:00:00+00:00,Synthetic checker review started
+AUD-0000574,EXCEPTION,EXC-0000004,STATUS_TRANSITION,"{""resolution_notes"": null, ""status"": ""UNDER_REVIEW""}","{""resolution_notes"": null, ""resolved_at"": null, ""status"": ""REMEDIATION_REQUIRED""}",checker_demo,2026-09-23T16:00:00+00:00,Synthetic remediation requested
+AUD-0000575,EXCEPTION,EXC-0000005,STATUS_TRANSITION,"{""resolution_notes"": null, ""status"": ""NEW""}","{""resolution_notes"": null, ""resolved_at"": null, ""status"": ""UNDER_REVIEW""}",checker_demo,2026-09-23T13:00:00+00:00,Synthetic checker review started
+AUD-0000576,EXCEPTION,EXC-0000005,STATUS_TRANSITION,"{""resolution_notes"": null, ""status"": ""UNDER_REVIEW""}","{""resolution_notes"": null, ""resolved_at"": null, ""status"": ""REMEDIATION_REQUIRED""}",checker_demo,2026-09-23T16:00:00+00:00,Synthetic remediation requested
+AUD-0000577,EXCEPTION,EXC-0000006,STATUS_TRANSITION,"{""resolution_notes"": null, ""status"": ""NEW""}","{""resolution_notes"": null, ""resolved_at"": null, ""status"": ""UNDER_REVIEW""}",checker_demo,2026-09-23T13:00:00+00:00,Synthetic checker review started
+AUD-0000578,EXCEPTION,EXC-0000006,REJECTED,"{""resolution_notes"": null, ""status"": ""UNDER_REVIEW""}","{""resolution_notes"": ""Rejected in demonstration workflow"", ""resolved_at"": ""2026-09-23T18:00:00+00:00"", ""status"": ""REJECTED""}",checker_demo,2026-09-23T18:00:00+00:00,Synthetic instruction rejected
+AUD-0000579,EXCEPTION,EXC-0000007,STATUS_TRANSITION,"{""resolution_notes"": null, ""status"": ""NEW""}","{""resolution_notes"": null, ""resolved_at"": null, ""status"": ""UNDER_REVIEW""}",checker_demo,2026-09-23T13:00:00+00:00,Synthetic checker review started
+AUD-0000580,EXCEPTION,EXC-0000008,STATUS_TRANSITION,"{""resolution_notes"": null, ""status"": ""NEW""}","{""resolution_notes"": null, ""resolved_at"": null, ""status"": ""UNDER_REVIEW""}",checker_demo,2026-09-23T13:00:00+00:00,Synthetic checker review started

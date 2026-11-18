@@ -1,0 +1,17 @@
+metric,value,unit,formula
+total_ssi_records,250.0,count,Count of physical SSI records processed
+valid_ssi_records,224.0,count,Records with no failed validation rules
+invalid_ssi_records,26.0,count,Records with at least one failed validation rule
+validation_pass_rate,89.6,percent,valid_ssi_records / total_ssi_records * 100
+exception_count,33.0,count,Count of failed rule evaluations
+exception_rate,13.2,percent,exception_count / total_ssi_records * 100
+critical_exception_count,11.0,count,Critical exceptions
+high_exception_count,16.0,count,High exceptions
+unresolved_exception_count,29.0,count,Exceptions not resolved or rejected
+resolved_exception_count,3.0,count,Exceptions in RESOLVED state
+duplicate_rate,4.0,percent,Records failing duplicate ID or active-conflict rules / total records * 100
+stale_record_count,2.0,count,Records failing stale-instruction validation
+expired_instruction_count,2.0,count,Records failing expiry validation
+maker_checker_violation_count,3.0,count,Records failing maker-checker completeness or segregation
+average_exception_age_days,0.0,days,Average age of unresolved exceptions
+average_remediation_time_days,1.04,days,Average detected-to-resolved duration for resolved exceptions

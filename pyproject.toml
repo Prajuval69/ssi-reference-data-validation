@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ssi-reference-validation"
+version = "1.0.0"
+description = "Synthetic SSI reference-data validation and exception-management simulation"
+requires-python = ">=3.11"
+dependencies = ["pandas>=2.0,<3.0", "numpy>=1.24,<3.0"]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0,<9.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-q"
+

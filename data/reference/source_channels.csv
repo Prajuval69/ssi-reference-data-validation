@@ -1,0 +1,4 @@
+source_channel,description
+PORTAL,Synthetic operations portal
+API,Synthetic controlled API
+BATCH,Synthetic batch intake

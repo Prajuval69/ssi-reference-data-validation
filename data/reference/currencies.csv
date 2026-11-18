@@ -1,0 +1,6 @@
+currency,currency_name,decimal_places
+SUSD,Synthetic US Dollar,2
+SEUR,Synthetic Euro,2
+SGBP,Synthetic Pound,2
+SJPY,Synthetic Yen,0
+SINR,Synthetic Rupee,2
